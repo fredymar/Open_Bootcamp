@@ -1,0 +1,16 @@
+.flex{
+        display: flex;
+        flex-direction: column;
+        background-color: yellow;
+        height: 300px;
+        justify-content: space-around;
+        align-items: flex-end;
+        /* flex-wrap: wrap; */
+}
+
+.contenido-1, .contenido-2, .contenido-3{
+    background: white;
+    height: 200px;
+    width: 200px;
+    border: 1px solid blue;
+}
