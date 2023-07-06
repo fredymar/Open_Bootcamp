@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 50px auto;
+    background: #ccc;
+}
+
+.barra{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    flex-grow: 2;
+    margin: 20px 10px;
+}
+
+.vertical{
+    width: 50px;
+    background: yellow;
+    color: blue;
+    padding: 10px;
+}
+
+.principal{
+    display: flex;
+    background: yellow;
+    flex-grow: 100;
+    margin: 20px 10px;
+    height: 100px;
+    color: blue;
+}
+
+@media (max-width: 640px) {
+    .container{
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+    }
+    .barra{
+        flex-direction: row;
+        align-self: flex-end;
+        background: yellow;
+        width: 95%;
+    }
+    .principal{
+        width: 95%;
+        align-self: flex-start;
+    }
+}
