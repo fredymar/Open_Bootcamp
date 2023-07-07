@@ -1,10 +1,14 @@
 //componenetes
-@import "Sass/componentes";
+@use "Sass/componentes";
 
 //mixing
 
-@import "Sass/mixings";
+@use "Sass/mixins" ;
 
 //estilos
 
-@import "Sass/estilos";
+@use "Sass/estilos";
+
+//otros
+
+@use "Sass/builtin";
