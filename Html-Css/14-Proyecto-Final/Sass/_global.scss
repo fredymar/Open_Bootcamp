@@ -100,3 +100,14 @@
     }
 
 }
+
+.sec-benefits{
+    border-top: 1px solid #ddd;
+
+    @extend .sec-features, .intro;
+
+    .benefit-cards{
+        width: 100%;
+        padding: 0 2rem 2rem 2rem;
+    }
+}
